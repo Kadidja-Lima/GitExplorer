@@ -1,0 +1,10 @@
+
+<div class ='container'>
+  <div>
+    <h1>Github<span>  Search</span></h1>
+  </div>
+  <app-input></app-input>
+  <div *ngIf="loadingService.get() | async" class="overlay">
+    <i class ="loading-spinner"></i>
+  </div>
+</div>

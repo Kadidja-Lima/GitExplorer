@@ -1,0 +1,11 @@
+
+<div class="container">
+  <div class="first">
+      <h1>Github <span>  Search</span></h1>
+      <app-input></app-input>
+  </div>
+    <div *ngIf="loadingService.loading | async" class="overlay">
+      <i class ="loading-spinner"></i>
+    </div>
+    <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,12 @@
+
+<form [formGroup]="formBusca" (ngSubmit)="onSubmit()">
+  <div class="search">
+    <input type="text"class="search-text" formControlName="username">
+    <button class= "search-button">
+    <span class="material-icons">search</span></button>
+  </div>
+      <div class="sem-texto" *ngIf="semtexto">
+      <p>Preencha para prosseguir!</p>
+  </div>
+ </form>
+

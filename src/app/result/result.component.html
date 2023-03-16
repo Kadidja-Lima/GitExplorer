@@ -1,0 +1,29 @@
+<div class="container">
+  <div  *ngIf="user" class="second">
+      <div class="section-one">
+          <img class="profile"src="{{ user.avatar_url }}">
+          <h2 class="name">{{user.name}}</h2>
+          <div class="detail">
+              <p>{{user.login}}</p>
+              <p><span class="material-icons">account_circle </span>
+                {{ user.bio}}</p>
+              <p><span class="material-icons">radio_button_unchecked</span>
+                {{ user.location }}</p>
+              <p><span class="material-icons">star_outline</span>
+              {{user.public_repos}}</p>
+              <p><span class="material-icons">check_box_outline_blank
+              </span>{{user.following}}</p>
+              <p><span class="material-icons">people</span>
+              {{user.followers}}</p>
+          </div>
+      </div>
+      <div class="section-two">
+          <div *ngFor="let repos of repositories"class="description">
+              <h1>{{repos.name}}</h1>
+              <h2>{{repos.description}}</h2>
+              <p><span class="material-icons">star_outline</span>
+              {{repos.size}}</p>
+          </div>
+      </div>
+  </div>
+</div>
