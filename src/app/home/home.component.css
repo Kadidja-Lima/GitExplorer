@@ -43,8 +43,8 @@ h1 > span{
 
 @keyframes is-rotating {
   to {
-    transform: rotate(2turn);
-  };
+    transform: rotate(2turn)
+  }
 }
 
 
