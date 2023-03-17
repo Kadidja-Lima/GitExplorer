@@ -22,7 +22,7 @@
 }
 
 .description h1{
-  font-family:'Rubik Bubbles', cursive;
+  font-family:('Rubik Bubbles'), cursive;
   font-size: 35px;
   color: #ac53f2;
   height: 40.8px;
@@ -32,7 +32,7 @@
 
 .description h2{
   font-size: 20px;
-  font-family: 'Open Sans', cursive;
+  font-family: ('Open Sans'), cursive;
   color: #000;
   width: 600px;
   margin-bottom: 0;
