@@ -5,8 +5,8 @@
   justify-content:center;
   align-items:center;
   object-fit: cover;
-
 }
+
 .detail p{
   font-family: Raleway;
   font-size: 20px;
@@ -15,10 +15,12 @@
   margin-top: 0;
   display: flex;
 }
+
 .section-two{
   margin-left: 52px;
   max-width: 70%;
 }
+
 .description h1{
   font-family:'Rubik Bubbles', cursive;
   font-size: 35px;
@@ -27,6 +29,7 @@
   margin-bottom: 0;
   margin-top:0;
 }
+
 .description h2{
   font-size: 20px;
   font-family: 'Open Sans', cursive;
@@ -35,6 +38,7 @@
   margin-bottom: 0;
   margin-top: 0;
 }
+
 .description p{
   font-size: 20px;
   font-family: Raleway;
@@ -44,15 +48,18 @@
   margin-top: 0;
   display: flex;
 }
+
 .second{
   display: flex;
   margin-top: 50px;
 }
+
 .section-one{
   width:280px;
   height:480px;
   max-width: 30%;
 }
+
 .first h1{
   width: 280px;
   height: 50px;

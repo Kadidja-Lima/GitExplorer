@@ -4,18 +4,21 @@
   align-items:center;
   margin-top: 30px;
 }
+
 h1{
   margin: 0 68px 0 000px;
   font-family: monospace;
   font-size: 45px;
   display: flex;
 }
+
 h1 > span{
   font-style: italic;
   font-family: Raleway;
   font-weight: 200;
   margin-left: 10px;
 }
+
 .overlay{
   position: fixed;
   top: 0;
@@ -25,6 +28,7 @@ h1 > span{
   background: rgba(0, 0, 0, 0.5); /* fundo semi-transparente */
   z-index: 9999;
 }
+
 .loading-spinner{
   width: 110px;
   height: 110px;
@@ -38,6 +42,7 @@ h1 > span{
   top:30%;
   left:50%;
 }
+
 @keyframes is-rotating {
   to {
     transform: rotate(2turn);
