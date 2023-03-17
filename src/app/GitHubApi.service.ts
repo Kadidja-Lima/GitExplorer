@@ -8,7 +8,7 @@ import { userResult } from './result/userResult';
   providedIn: 'root'
 })
 export class GitHubApiService {
-  private apiURL = "https://api.github.com/users/"
+  private apiURL = ("https://api.github.com/users/")
 
   constructor(private http: HttpClient) { }
 
