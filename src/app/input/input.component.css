@@ -26,4 +26,12 @@
   font-style: italic;
 }
 
+@media (max-width: 900px){
+  .search-text{
+    width: 400px;
+  }
 
+  .search-button{
+    width: 50px;
+  }
+}

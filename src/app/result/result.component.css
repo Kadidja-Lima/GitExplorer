@@ -16,8 +16,28 @@
   display: flex;
 }
 
+.second{
+  display: flex;
+  margin-top: 50px;
+}
+
+.section-one{
+  width:280px;
+  height:480px;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.first h1{
+  width: 280px;
+  height: 50px;
+  font-size: 40px;
+  font-family: monospace;
+}
+
 .section-two{
-  margin-left: 52px;
+  margin-left: 65px;
   max-width: 70%;
 }
 
@@ -50,23 +70,40 @@
   display: flex;
 }
 
-.second{
-  display: flex;
-  margin-top: 50px;
-}
 
-.section-one{
-  width:280px;
-  height:480px;
-  max-width: 30%;
-}
+@media (max-width: 900px){
+  .search-text{
+    width: 400px;
+  }
 
-.first h1{
-  width: 280px;
-  height: 50px;
-  font-size: 40px;
-  font-family: monospace;
-}
+  .search-button{
+    width: 50px;
+  }
 
+  .second{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-two{
+    margin-left: 0px;
+    margin-top: 150px;
+  }
+
+  .detail{
+    width:280px;
+    height:480px;
+  }
+
+  .name{
+    width:280px;
+    height:480px;
+  }
+
+  .description{
+    width: 400px;
+  }
+}
 
 
