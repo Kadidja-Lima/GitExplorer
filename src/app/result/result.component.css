@@ -24,10 +24,11 @@
 .description h1{
   font-family:'Dosis', sans-serif;;
   font-size: 35px;
-  color: #ac53f2;
+  color: #ea1515;
   height: 40.8px;
   margin-bottom: 0;
   margin-top:0;
+  font-weight:bold;
 }
 
 .description h2{
