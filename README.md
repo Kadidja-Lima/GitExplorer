@@ -1,6 +1,6 @@
 #Aplicação para consulta de repositórios do GitHub
 
-Essse é um projeto gerado com [Angular CLI] version 15.0.4.
+Essse é um projeto gerado com Angular CLI version 15.0.4.
 Ele implementa uma aplicação client-side que consulta a API do GitHub para exibir os repositórios de um determinado usuário.
 
 #Navegação
