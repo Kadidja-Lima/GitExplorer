@@ -52,4 +52,10 @@ h1 > span{
   h1{
     font-size: 40px;
   }
+
+  .loading-spinner{
+    width: 70px;
+    height: 70px;
+    left: 35%
+  }
 }

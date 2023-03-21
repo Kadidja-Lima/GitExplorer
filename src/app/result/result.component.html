@@ -7,14 +7,14 @@
               <p>{{user.login}}</p>
               <p><span class="material-icons">account_circle </span>
                 {{ user.bio}}</p>
-              <p><span class="material-icons">radio_button_unchecked</span>
+              <p><span class="material-icons">location_on</span>
                 {{ user.location }}</p>
               <p><span class="material-icons">star_outline</span>
-              {{user.public_repos}}</p>
-              <p><span class="material-icons">check_box_outline_blank
-              </span>{{user.following}}</p>
+                {{user.public_repos}}</p>
               <p><span class="material-icons">people</span>
-              {{user.followers}}</p>
+                {{user.followers}}</p>
+              <p><span class="material-icons">person
+              </span>{{user.following}}</p>
           </div>
       </div>
       <div class="section-two">
@@ -22,8 +22,7 @@
               <h1>{{repos.name}}</h1>
               <h2>{{repos.description}}</h2>
               <p><span class="material-icons">star_outline</span>
-              {{repos.size}}</p>
+              {{repos.stargazers_count}}</p>
           </div>
       </div>
   </div>
-
