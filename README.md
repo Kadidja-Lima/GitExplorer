@@ -28,4 +28,5 @@ rotas-component:Realiza a busca de usuários e seus repositórios no GitHub. O e
   not-found: Caso o usuário não seja encontrado, obtendo uma mensagem de erro.
  
 
-A aplicação estará disponível em:
+A aplicação estará disponível em https://sparkly-crepe-cfe3f1.netlify.app/.
+
