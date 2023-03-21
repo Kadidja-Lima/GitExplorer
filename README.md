@@ -23,9 +23,10 @@ home: Componente responsável por exibir a página inicial.
 input: Exibe um formulário de busca com um campo de entrada de texto e um botão de pesquisa. O formulário é validado através do objeto FormGroup definido na classe do componente, e uma mensagem de erro é exibida se o usuário tentar enviar o formulário sem preencher o campo de entrada de texto. 
 
 rotas-component:Realiza a busca de usuários e seus repositórios no GitHub. O elemento <router-outlet> é responsável por renderizar o componente correspondente à rota atual da aplicação, podendo ser:
+
   result: Que exibe as informações sobre o usuário e seus repositórios.
   not-found: Caso o usuário não seja encontrado, obtendo uma mensagem de erro.
  
 
-A aplicação estará disponível em https://sparkly-crepe-cfe3f1.netlify.app/.
+A aplicação estará disponível em http://localhost:4200.
 
