@@ -51,7 +51,7 @@ export class InputComponent implements OnInit {
 
         this.gitHubApiService.get(formvalue.username).subscribe(
         user => {this.goTo('/rotas/result', { user: formvalue.username })
-        this.loadingService.show()
+        this.loadingService.hide()
         },
         error => {this.goTo('/rotas/not-found', { user: formvalue.username }),
         this.loadingService.hide()
