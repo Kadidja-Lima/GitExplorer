@@ -24,7 +24,6 @@ input: Exibe um formulário de busca com um campo de entrada de texto e um botã
 
 rotas-component:Realiza a busca de usuários e seus repositórios no GitHub. O elemento <router-outlet> é responsável por renderizar o componente correspondente à rota atual da aplicação, podendo ser:
   result: Que exibe as informações sobre o usuário e seus repositórios.
-  git
   not-found: Caso o usuário não seja encontrado, obtendo uma mensagem de erro.
  
 
